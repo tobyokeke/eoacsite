@@ -1,0 +1,70 @@
+<div role="main" class="main">
+  <section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7" style="background-image: url(assets/img/services/banner.jpg);background-position: bottom">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12 align-self-center p-static order-2 text-center">
+          <h1 class="text-10">Our <strong>Services</strong></h1>
+          <span class="sub-title">We Are Here To Help You</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid">
+
+    <div *ngFor="let service of services; let i = index">
+      <div *ngIf="i % 2 > 0" class="row align-items-center bg-color-grey">
+        <div class="col-lg-6 p-0">
+          <section class="parallax section section-parallax custom-parallax-bg-pos-left custom-sec-left h-100 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" [attr.data-image-src]="service.image" style="min-height: 315px;">
+          </section>
+        </div>
+        <div class="col-lg-6 p-0">
+          <section class="section section-no-border h-100 m-0">
+            <div class="row m-0">
+              <div class="col-half-section col-half-section-left">
+                <div class="overflow-hidden">
+                  <h4 class="mb-0 appear-animation" data-appear-animation="maskUp"><a href="#" class="text-4 font-weight-bold pt-2 d-block text-dark text-decoration-none pb-1">{{service.name}}</a></h4>
+                </div>
+                <div class="overflow-hidden mb-2">
+                  <p class="mb-0 lead text-4 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">{{service.one_line}}</p>
+                </div>
+                <p class="text-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">{{service.short_description}}...</p>
+                <a [href]="'services/' + service.link" class="font-weight-semibold text-decoration-none learn-more text-2">READ MORE <i class="fas fa-chevron-right ml-2"></i></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div *ngIf="i % 2 == 0" class="row align-items-center bg-color-grey">
+        <div class="col-lg-6 order-2 order-lg-1 p-0">
+          <section class="section section-no-border h-100 m-0">
+            <div class="row justify-content-end m-0">
+              <div class="col-half-section col-half-section-right custom-text-align-right">
+                <div class="overflow-hidden">
+                  <h4 class="mb-0appear-animation" data-appear-animation="maskUp"><a href="#" class="text-4 font-weight-bold pt-2 d-block text-dark text-decoration-none pb-1">{{service.name}}</a></h4>
+                </div>
+                <div class="overflow-hidden mb-2">
+                  <p class="mb-0 lead text-4 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">{{service.one_line}}</p>
+                </div>
+                <p class="text-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">{{service.short_description}}...</p>
+                <a [href]="'services/' + service.link" class="font-weight-semibold text-decoration-none learn-more text-2">READ MORE <i class="fas fa-chevron-right ml-2"></i></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 p-0">
+          <section class="parallax section section-parallax h-100 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" [attr.data-image-src]="service.image"  style="min-height: 315px;">
+          </section>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
