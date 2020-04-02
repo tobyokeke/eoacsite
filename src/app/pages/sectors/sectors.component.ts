@@ -9,7 +9,7 @@ import {DataService} from '../../services/data.service';
 export class SectorsComponent implements OnInit {
 
   constructor(
-    private dataService : DataService
+    public dataService : DataService
   ) { }
 
   ngOnInit(): void {
