@@ -1,1 +1,39 @@
-<p>sectors works!</p>
+
+<div role="main" class="main">
+
+  <section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7" style="background-image: url(assets/img/about1.jpg);">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12 align-self-center p-static order-2 text-center">
+          <h1 class="text-9 font-weight-bold">Sectors</h1>
+<!--          <span class="sub-title">The perfect choice for your next project</span>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+          EOAC offers broad technical expertise with deep market knowledge in Audit, Tax, ICT, Forensic and Advisory Services, providing consistent quality and impeccable services to diverse clientele in sectors large and small, global and local.
+        </p>
+
+        <p>
+          The key sectors where we showcase specific expertise include: <br>
+        </p>
+        <ul>
+          <li *ngFor="let sector of dataService.sectors">{{sector}}</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <img style="width:100%" src="assets/img/about1.jpg">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+

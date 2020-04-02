@@ -5,6 +5,28 @@ import { Injectable } from '@angular/core';
 })
 export class DataService {
 
+  sectors = [
+	"Governments at all levels"
+,	"Manufacturing"
+,	"Oil and Gas"
+,	"Solid Minerals"
+,	"Construction"
+,	"Chemicals"
+,	"Industrial Metals & Mining"
+,	"Banking"
+,	"Real Estate"
+,	"Financial Services"
+,	"Hotel, Tourism and Leisure"
+,	"Non for Profit"
+,	"Technology and Telecommunications"
+,	"Professional Services"
+,	"Transportation"
+,	"Automobiles"
+,	"Food and Beverages"
+,	"Textile"
+
+];
+
   services =  [
     {
       name: 'Audit and Assurance Services',

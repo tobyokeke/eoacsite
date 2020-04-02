@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DataService} from '../../services/data.service';
 
 @Component({
   selector: 'app-sectors',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectorsComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private dataService : DataService
+  ) { }
 
   ngOnInit(): void {
   }
