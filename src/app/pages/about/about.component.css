@@ -10,3 +10,9 @@
 .thumb-info-caption .thumb-info-caption-text, .thumb-info-caption p{
   margin-top: 60px;
 }
+
+.prof{
+  background: rgba(33, 37, 41, 0.8) !important;font-size: 17px; padding:5px; color:white !important; width:300px;
+  font-family: "Open Sans", Arial, sans-serif !important;
+  font-weight: 600 !important;
+}
