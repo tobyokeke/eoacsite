@@ -27,6 +27,21 @@ export class DataService {
 
 ];
 
+  clients = [
+    "assets/img/clients/1.jpg",
+    "assets/img/clients/2.jpg",
+    "assets/img/clients/3.jpg",
+    "assets/img/clients/4.jpg",
+    "assets/img/clients/5.jpg",
+    "assets/img/clients/6.jpg",
+    "assets/img/clients/7.jpg",
+    "assets/img/clients/8.jpg",
+    "assets/img/clients/9.jpg",
+    "assets/img/clients/10.jpg",
+    "assets/img/clients/11.jpg",
+    "assets/img/clients/12.jpg",
+  ];
+
   services =  [
     {
       name: 'Audit and Assurance Services',

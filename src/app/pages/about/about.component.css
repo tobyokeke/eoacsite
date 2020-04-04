@@ -4,3 +4,9 @@
 .white-background{
   background: white !important;
 }
+.thumb-info .thumb-info-title{
+  bottom:unset !important;
+}
+.thumb-info-caption .thumb-info-caption-text, .thumb-info-caption p{
+  margin-top: 60px;
+}
