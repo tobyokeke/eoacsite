@@ -15,16 +15,16 @@
       <div class="col-md-6 col-lg-3 text-center text-lg-left mb-5 mb-lg-0">
         <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">SERVICES</h5>
         <ul class="list list-unstyled">
-          <li class="mb-1" *ngFor="let service of services; let i = index"><a *ngIf="i % 2 == 0" class="link-hover-style-1" [href]="'services/' + service.link">{{service.name}}</a></li>
+          <li class="mb-1" *ngFor="let service of services; let i = index"><a class="link-hover-style-1" [href]="'services/' + service.link">{{service.name}}</a></li>
         </ul>
       </div>
 
-      <div class="col-md-6 col-lg-3 text-center text-lg-left mb-5 mb-lg-0">
-        <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">SERVICES</h5>
-        <ul class="list list-unstyled">
-          <li class="mb-1" *ngFor="let service of services; let i = index"><a *ngIf="i % 2 > 0" class="link-hover-style-1" [href]="'services/' + service.link">{{service.name}}</a></li>
-        </ul>
-      </div>
+<!--      <div class="col-md-6 col-lg-3 text-center text-lg-left mb-5 mb-lg-0">-->
+<!--        <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">SERVICES</h5>-->
+<!--        <ul class="list list-unstyled">-->
+<!--          <li class="mb-1" *ngFor="let service of services; let i = index"><a *ngIf="i % 2 > 0" class="link-hover-style-1" [href]="'services/' + service.link">{{service.name}}</a></li>-->
+<!--        </ul>-->
+<!--      </div>-->
 
     </div>
   </div>

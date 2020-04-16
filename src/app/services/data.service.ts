@@ -40,6 +40,9 @@ export class DataService {
     "assets/img/clients/10.jpg",
     "assets/img/clients/11.jpg",
     "assets/img/clients/12.jpg",
+    "assets/img/clients/13.jpg",
+    "assets/img/clients/14.jpg",
+    "assets/img/clients/15.jpg",
   ];
 
   services =  [
@@ -69,8 +72,8 @@ export class DataService {
 
     {
       name: 'Information and Communications Technology (ICT)',
-      one_line : 'With technological advancement and changing global economy, the requirements of today’s audit and attest services are no longer the same with the traditional approach.',
-      short_description : 'Though, Audit remains an independent service that enhances the credibility of assertion and information used by investors, stakeholders and the general public, the approach, experience and expertise of the firm concerned have the capacity to affect the credence and quality of such service, report and assertion.<br>',
+      one_line : 'The ever-increasing importance of information and communications technology (ICT) to the survival and success of organisations cannot be over emphasised',
+      short_description : 'From word processing, to networking, to the internet, to e-commerce, IT has become the driving force in today’s global economy.',
       description : 'The ever-increasing importance of information and communications technology (ICT) to the survival and success of organisations cannot be over emphasised. From word processing, to networking, to the internet, to e-commerce, IT has become the driving force in today’s global economy. With IT, the challenges normally face by most organisations in such areas as revenue and process automation, payroll; human resources, accounting and supply chain management are overcome.\n' +
         'The degree of sophistication of both information, planning and control systems is a prominent factor in determining the success or failure of organisational growth which becomes increasingly important as organisation grows larger and more complicated.\n',
       list_title : 'EOAC will always be at your service in the following areas:',
@@ -89,9 +92,9 @@ export class DataService {
     },
 
     {
-      name: 'Internally Generated Revenue (IGR) and Automation',
-      one_line : 'Tax awareness and compliance are becoming more popular across the globe.',
-      short_description : 'This is aided by the renewed drive for more revenue to meet the various needs of the government. Other factors include tax audits, investigations and enforcements. Adequate tax planning and management are critical to the success of every organisation and these require the services of experts.',
+      name: 'Revenue Generation and Automation',
+      one_line : 'In these days of revenue dwindling, government at all levels are continuously exploring ways and means to boost their revenue base.',
+      short_description : 'Utilising available sources optimally, blocking leakages, evolve financial discipline and accountability in order to meet their enormous objectives.',
       description : '<p>In these days of revenue dwindling, government at all levels are continuously exploring ways and means to boost their revenue base, utilising available sources optimally, blocking leakages, evolve financial discipline and accountability in order to meet their enormous objectives. It is also pertinent to know that allocations and grants are no longer adequate, therefore, there is an urgent need to alternate them with internal reliance. Today, there is a clamour for MDAs, state and local Government to generate revenue internally. The question on how, remains unanswered until the right experts are sought.</p>\n' +
         '\n' +
         '<h3>Revenue Automation</h3>\n' +
@@ -110,7 +113,7 @@ export class DataService {
         "Project Monitoring and Evaluation"
       ],
       image : 'assets/img/services/3.jpg',
-      link : 'igr-and-automation'
+      link : 'revenue-generation-and-automation'
     },
 
     {
@@ -180,7 +183,7 @@ export class DataService {
     {
       name: 'Accounting Services',
       one_line : 'At EOAC, we offer Forensic Services to our wide range of clients.',
-      short_description : 'Our uniqueness is the ability of our forensic team to promptly analyse, interpret, summarise and present complex financial and business related issues clearly and concisely, both in and outside a courtroom setting.',
+      short_description : 'The type of financial records, documentations and reports in any organization are direct product of the system in place.',
       description : 'The type of financial records, documentations and reports in any organization are direct product of the system in place.  Owners, donors and other interest group/stakeholders are keen on how prudently the available resources are being utilised for the realisation of their set goals and objectives. Therefore, proper and reliable accounting system has the capacity to lay credence to such reports. We carry out detailed review of your system and procedures. During the process, our team examines and evaluates all operating facets of your oganisation, develop strategies to overcome any problem identified and guide you in implementing recommendations. A follow up team also works with you to monitor the on-going performance and effectiveness of the programmes put in place.',
       list_title : 'EOAC team will specifically help you in the following areas: ',
       list : [

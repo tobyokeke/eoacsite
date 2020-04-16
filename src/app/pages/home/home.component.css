@@ -4,3 +4,6 @@
 .font-24{
   font-size: 24px !important;
 }
+.no-decoration{
+  text-decoration: none !important;
+}
